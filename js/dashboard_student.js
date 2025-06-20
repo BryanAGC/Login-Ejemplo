@@ -80,6 +80,10 @@ if (joinForm) {
       document.getElementById('joinMessage').textContent = '✅ Te uniste al curso correctamente.';
       document.getElementById('joinMessage').style.color = '#4dd0e1';
       document.getElementById('joinCodeInput').value = '';
+      console.log('Respuesta completa:', res);               // Toda la respuesta de Axios
+      console.log('Datos recibidos:', res.data);             // Solo el cuerpo de la respuesta
+      console.log('Código de estado:', res.status);          // Código HTTP (ej. 200)
+      console.log('Cabeceras:', res.headers);                // Headers de la respuesta
       navigate('courses');
 
     } catch (err) {
