@@ -1,5 +1,5 @@
-const API_ACADEMIC = 'https://adriacademic.onrender.com';
-const API_ATTENDANCE = 'https://adriasistencia.onrender.com';
+const API_ACADEMIC = 'https://gateway-kdwq.onrender.com/api3/academia';
+const API_ATTENDANCE = 'https://gateway-kdwq.onrender.com/api2/asistencia';
 const token = localStorage.getItem('token');
 const urlParams = new URLSearchParams(window.location.search);
 const courseId = urlParams.get('courseId');
