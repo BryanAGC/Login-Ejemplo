@@ -1,4 +1,4 @@
-const API_URL = 'https://adriauth.onrender.com/auth';
+const API_URL = 'https://gateway-kdwq.onrender.com/api1/auth';
 
 document.getElementById('registerForm').addEventListener('submit', async (e) => {
   e.preventDefault();
