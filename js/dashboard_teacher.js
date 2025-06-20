@@ -4,7 +4,7 @@ const token = localStorage.getItem('token');
 // 🚫 Redirige si no hay token
 if (!token) {
   alert('No autorizado');
-  window.location.href = 'login.html';
+  window.location.href = 'https://login-adri-1.netlify.app/';
 }
 
 // 🧭 Navegación de secciones
@@ -18,7 +18,7 @@ function navigate(sectionId) {
 // 🔐 Cerrar sesión
 function logout() {
   localStorage.clear();
-  window.location.href = 'login.html';
+  window.location.href = 'https://login-adri-1.netlify.app/';
 }
 
 // 📚 Cargar cursos asignados al maestro
