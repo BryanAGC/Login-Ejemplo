@@ -6,7 +6,7 @@ const courseId = urlParams.get('courseId');
 
 if (!token || !courseId) {
   alert('No autorizado');
-  window.location.href = 'login.html';
+  window.location.href = 'https://login-adri-1.netlify.app/';
 }
 
 let asistenciaInicio = null;
