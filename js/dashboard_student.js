@@ -1,4 +1,4 @@
-const API_ACADEMIC = 'https://adriacademic.onrender.com';
+const API_ACADEMIC = 'https://gateway-kdwq.onrender.com/api3/academia/';
 const token = localStorage.getItem('token');
 
 // 🚫 Redirigir si no hay token
